@@ -166,8 +166,8 @@
 }
 
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+  padding-top: 20rem;
+  background: white;
 }
 
 .about-section p {
@@ -207,7 +207,7 @@
 
 .signup-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/cdmx.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -219,8 +219,6 @@
   padding: 1.25rem 2rem;
   height: auto;
   font-family: 'Noto Sans', sans-serif;
-
-
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -305,18 +303,59 @@ footer {
   padding: 5rem 0;
 }
 
-#imagen1{
- position: absolute;
- width: 50px;
- height: 100px;
- background: red;
- color:white;
- top: 0%;
-}
+
 
 #img1{
   position:relative;
-  width: 300px;
-  height: 100px;
-  left:0px;
+  width: 7em;
+  height: 5em;
+  margin-top: 10%;
+}
+
+.imagen2{
+
+  position: relative;
+    width: 50px; height: 50px;
+}
+
+.nueva{
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+
+
+.fondo{
+width: 100em;
+height: 50em;
+grid-column-start: 1;
+grid-column-end: 2;
+opacity: 0.40;
+}
+.texto{
+  padding: 5%;
+  padding-left: 30%;
+  padding-right: 30%;
+  position: absolute;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  vertical-align: center;
+}
+
+.texto h2{
+  text-align: center;
+    font-size: 60px;
+}
+.texto p{
+
+  text-align: justify;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.1em;
+}
+
+.nombres{
+  color:  #A5A5A5;
+  font-size: x-large;
+
 }
