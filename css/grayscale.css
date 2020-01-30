@@ -1,3 +1,18 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@DiegoRosado9615 
+Code Issues 0 Pull requests 0 Projects 0 Actions Wiki Security Pulse
+pag-centro-geo/css/grayscale.css
+ LoboStark Vista Con celulares
+0b7ca82 8 days ago
+348 lines (290 sloc)  6.1 KB
+ 
 /*!
  * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
  * Copyright 2013-2019 Start Bootstrap
@@ -313,34 +328,21 @@ footer {
 }
 
 .imagen2{
-
   position: relative;
     width: 50px; height: 50px;
 }
 
 .nueva{
-  display: grid;
-  grid-template-columns: 50% 50%;
+  display: flex;
+  flex-direction: column;
 
 }
 
-
-
-.fondo{
-width: 100em;
-height: 50em;
-grid-column-start: 1;
-grid-column-end: 2;
-opacity: 0.40;
-}
 .texto{
-  padding: 5%;
-  padding-left: 30%;
-  padding-right: 30%;
-  position: absolute;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  vertical-align: center;
+background-image: url("../img/fondo_inicio.gif");
+background-color: transparent;
+background-position:center;
+text-align: justify;
 }
 
 .texto h2{
@@ -359,3 +361,16 @@ opacity: 0.40;
   font-size: x-large;
 
 }
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Found 3 out of 3 items
