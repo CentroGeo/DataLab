@@ -1,6 +1,8 @@
 .contenedor{
 display: grid;
 height: 100vh;
+grid-template-rows: 30em  ;
+
 }
 
 .titulo{
@@ -10,6 +12,11 @@ text-align: center;
 }
 
 .descripcion{
+position: relative;
+top:20%;
 font-family: 'Libre Baskerville', serif;
 font-size: 1.5em;
+color: blue;
+text-align: justify;
 }
+
