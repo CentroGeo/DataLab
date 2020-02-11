@@ -288,7 +288,7 @@ pag-centro-geo/css/grayscale.css
 
 body {
   font-family: 'Noto Sans', sans-serif;
-if;
+
 
   letter-spacing: 0.0625em;
 }
@@ -322,16 +322,22 @@ footer {
 
 #img1{
   position:relative;
-  width: 7em;
+  width: 10em;
   height: 5em;
+  left: 10%;
   margin-top: 10%;
 }
 
 .imagen2{
   position: relative;
-    width: 50px; height: 50px;
+  
+  width: 1.5em; height: 2.3em;
 }
-
+.geoint{
+  position: relative;
+  left: 15%;
+  width: 1.5em; height: 2.3em;
+}
 .nueva{
   display: flex;
   flex-direction: column;
