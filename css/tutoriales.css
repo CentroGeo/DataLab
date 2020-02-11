@@ -1,0 +1,15 @@
+.contenedor{
+display: grid;
+height: 100vh;
+}
+
+.titulo{
+font-family: 'Hind', sans-serif;
+font-size: 3em;
+text-align: center;
+}
+
+.descripcion{
+font-family: 'Libre Baskerville', serif;
+font-size: 1.5em;
+}
