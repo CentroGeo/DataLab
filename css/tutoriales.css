@@ -1,8 +1,7 @@
 .contenedor{
 display: grid;
 height: 100vh;
-grid-template-rows: 30em  ;
-
+grid-template-rows: 5em 12em 20em  ;
 }
 
 .titulo{
@@ -18,5 +17,11 @@ font-family: 'Libre Baskerville', serif;
 font-size: 1.5em;
 color: blue;
 text-align: justify;
+background-image: url("../img/tutoriales/descripcion.jpg");
 }
 
+.ofrece{
+  position: relative;
+  top: 15%;
+  margin: 50px;
+}
