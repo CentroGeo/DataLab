@@ -3,6 +3,9 @@
     <head>
         <!--Bibliotecas externa-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.2/d3.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <!--Estilo css-->
         <link rel="stylesheet" href="../css/tutoriales.css">
         <!--Estilos jquery Ui-->
@@ -11,7 +14,10 @@
         <!--Fuentes Chidas-->
 
         <!--Titulo-->
-        <link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+        <!-- header -->
+        <link href="https://fonts.googleapis.com/css?family=Karla|PT+Sans&display=swap" rel="stylesheet">
+
         <!--Descripcion-->
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
         <!--Acorrdion-->
@@ -25,8 +31,9 @@
 
     <body>
         <div class="contenedor">
+          <!--
           <div id="header">
-  			<nav> <!-- Aqui estamos iniciando la nueva etiqueta nav -->
+  			<nav>  Aqui estamos iniciando la nueva etiqueta nav
   				<ul class="nav">
   					<li><a href="../index.html">Inicio</a></li>
   					<li><a href="#">Tutoriales</a>
@@ -34,22 +41,52 @@
             <li><a href="">Links</a></li>
             <li><a href="">Experiencia</a></li>
   				</ul>
-  			</nav><!-- Aqui estamos cerrando la nueva etiqueta nav -->
-  		</div>
+  			</nav> Aqui estamos cerrando la nueva etiqueta nav -->
+
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">DataLab</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li ><a href="../index.html">Inicio</a></li>
+                <li class="active"><a href="#">Tutoriales</a></li>
+                <li><a href="#">Curso</a></li>
+                <li><a href="#">Equipo</a></li>
+                <li><a href="#">Links</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </div>
+          </nav>
+
+
 
           <div class="titulo">Tutoriales</div>
 
 
             <div class="descripcion">
-                En el laboratorio nos importa mucho, tener actualizados  a nuestros estudiantes y a el publico general
-                en los temas de conocimiento digital, por lo que aquí encontrara distintos tutoriales que lo ayudaran a
-                dominar distintas tecnologías.
-                <div class="imagen1">
-                <img src="../img/tutoriales/estudiando.jpg" width="30%" height="60%">  
+                <div class="texto">
+                  En el laboratorio nos importa mucho, tener actualizados  a nuestros estudiantes y a el publico general
+                  en los temas de conocimiento digital, por lo que aquí encontrara distintos tutoriales que lo ayudaran a
+                  dominar distintas tecnologías.
+                </div>
+
+                <div class="imagenes">
+                  <div class="imagen1">
+                    <img src="../img/tutoriales/python-2.svg" alt="logo Python" width="50%" height="40%">
+                  </div>
+                  <div class="imagen2">
+                      <img src="../img/tutoriales/javascript.svg" alt="logo js" width="30%" height="40%">
+                  </div>
+                  <div class="imagen3">
+                    <img src="../img/tutoriales/postqresql.svg" alt="logo SQL" width="50%" height="70%">
+                  </div>
+                  <div class="imagen4">
+                      <img src="../img/tutoriales/html5.png" alt="Html" width="30%" height="60%">
+                  </div>
                 </div>
 
             </div>
-
 
 
             <div id="cursos" class="ofrece">
@@ -88,6 +125,7 @@
                     </ul>
                 </div>
             </div>
+          </div>
         <!--Mis bibliotecas -->
         <script src="../js/tutoriales/tutorial.js"></script>
     </body>
