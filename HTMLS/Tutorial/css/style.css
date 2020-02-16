@@ -17,7 +17,7 @@ CONTENTS:
 06 Footer
 07 Icons
 08 Buttons
-09 Media queries 
+09 Media queries
 ===========================
 */
 /* Import css */
@@ -91,7 +91,7 @@ a.scrollup {
 a.scrollup:hover,a.scrollup:active,a.scrollup:focus {
 	opacity:1;
 	text-decoration:none;
-	-webkit-transition: all 400ms ease-out 0s;	
+	-webkit-transition: all 400ms ease-out 0s;
 	   -moz-transition: all 400ms ease-out 0s;
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
@@ -164,7 +164,6 @@ blockquote.large {
 blockquote.large:before {
 	font-size:64px;
 	font-family: FontAwesome;
-	content: "\f10d";
 	margin-right:20px;
 }
 
@@ -371,7 +370,7 @@ header .logo {
 
 /* --- Header slider --- */
 #header-wrapper.header-slider {
-	background: #444 url(../img/bg/bg-1.jpg) no-repeat center center fixed;
+	background: #444 url("../img/fondo.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -494,14 +493,14 @@ section.spacer.bg2 {
 	background: url(../img/bg/bg-2.jpg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
-	margin:0;	
+	margin:0;
 }
 
 section.spacer.bg3 {
 	background: url(../img/bg/bg-3.jpg) 50% 0 no-repeat fixed;
 	width:100%;
 	height:auto;
-	margin:0;	
+	margin:0;
 }
 
 section.spacer blockquote.large:before {
@@ -767,7 +766,7 @@ section#blog {
 
 .home-post {
 	background:#fff;
-	
+
 }
 
 .home-post:hover {
@@ -1285,7 +1284,7 @@ i.icon-white {
 /* =========================================================
 08. Buttons
 ============================================================ */
- 
+
 .btn {
 	color: #fff;
 	text-shadow: none;
@@ -1343,9 +1342,9 @@ i.icon-white {
 
 .btn-large [class^="icon-"],
 .btn-large [class*=" icon-"] {
+
   margin-top: 4px;
 }
-
 .btn-small {
   padding: 6px 13px;
   font-size: 11.9px;
@@ -1568,28 +1567,28 @@ i.icon-white {
 		padding-right:0;
 		padding:0;
 	}
-	
+
 	.navbar-inner {
 	 padding-right: 20px;
-	 padding-left: 20px;	
+	 padding-left: 20px;
 	}
-	
+
 	.navbar-inner h1.brand {
 		margin-left:20px;
 	}
-	
+
 	.navbar-inner .btn-navbar {
 		margin:20px 20px 0;
 	}
-	
+
 	.container {
 	 padding-right: 20px;
 	 padding-left: 20px;
-	}	
+	}
 	.navbar-inverse .navbar-inner {
 		padding:0 0 30px;
 	}
-	
+
 	.nav-collapse {
 		text-align:center;
 		width:100%;
@@ -1605,25 +1604,25 @@ i.icon-white {
 	}
 	.navbar-inner {
 	 padding-right: 20px;
-	 padding-left: 20px;	
+	 padding-left: 20px;
 	}
-	
+
 	.navbar-inner h1.brand {
 		margin-left:20px;
 	}
-	
+
 	.navbar-inner .btn-navbar {
 		margin:20px 20px 0;
 	}
-	
+
 	.container {
 	 padding-right: 20px;
 	 padding-left: 20px;
-	}	
+	}
 	.navbar-inverse .navbar-inner {
 		padding:0 20px 30px;
 	}
-	
+
 	.nav-collapse {
 		text-align:center;
 		width:100%;
@@ -1632,7 +1631,7 @@ i.icon-white {
 		width: 25%;
 	}
 }
-    
+
     /* Smaller screens ----------- */
 @media (max-width : 480px) {
 	#header-wrapper {
@@ -1652,7 +1651,7 @@ i.icon-white {
 	}
 
 }
-    
+
     /* Smartphones (portrait and landscape) ----------- */
 @media only screen  and (min-device-width : 320px)  and (max-device-width : 480px) {
 
@@ -1679,10 +1678,10 @@ i.icon-white {
  section#services h2, section#services ul {
  text-align: center;
 }
-		
+
 
 /* team */
-		
+
 #team .team-thumb {
  margin-right: auto;
  margin-left: auto;
@@ -1697,7 +1696,7 @@ i.icon-white {
  margin-left: auto;
  margin-right: auto;
 }
-		
+
 /* Contact Form */
 	#contact-form {
 		overflow: hidden;
@@ -1705,4 +1704,37 @@ i.icon-white {
 	#contact-form input[type=submit] {
 		width: 100%;
 	}
+}
+
+.accordion {
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border: white 1px groove;
+	background: #110F22;
+	text-align: center;
+	font-size: 1.5em;
+	font-family: 'Karla', sans-serif;
+
+
+}
+.active, .accordion:hover {
+  background-color: #64A19D;
+}
+
+.panel {
+	position: relative;
+	top:5;
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+	
+	font-family: 'Titillium Web', sans-serif;
 }

@@ -1,3 +1,9 @@
+.contenedor{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 2em 5em 10em 10em  ;
+}
+
 #header {
 				margin:auto;
 				width:500px;
@@ -46,20 +52,16 @@ ul, ol {
 	top:0px;
 }
 
-.contenedor{
-display: grid;
-height: 100vh;
-grid-template-rows: 5em 10em 10em  ;
-}
 
 .titulo{
+position: relative;
+top: 20%;
 font-family: 'Hind', sans-serif;
 font-size: 3em;
 text-align: center;
 }
 
 body{
-background-image: url("../img/tutoriales/descripcion.jpg");
 }
 .descripcion{
 position: relative;
@@ -69,12 +71,16 @@ font-size: 1.5em;
 color: blue;
 text-align: justify;
 background-image: url("../img/tutoriales/descripcion.jpg");
+border:  black 5px groove;
+
 }
 
 .ofrece{
   position: relative;
   top: 20%;
   background: black;
+  border: black 1px groove;
+
 }
 .accordion {
   background-color: black;
@@ -99,4 +105,3 @@ background-image: url("../img/tutoriales/descripcion.jpg");
   background-color: white;
   overflow: hidden;
 }
-</style>
