@@ -161,6 +161,13 @@ blockquote.large {
 	font-weight:700;
 	line-height:1.1em;
 }
+blockquote.large2{
+	font-size:36px;
+	font-weight:700;
+	line-height:1.1em;
+	text-align: center;
+
+}
 blockquote.large:before {
 	font-size:64px;
 	font-family: FontAwesome;
@@ -257,7 +264,7 @@ h2.pagetitle {
 	font-size: 1em;
 }
 .alignright {
-	text-align: right;
+	text-align: justify;
 }
 .alignleft {
 	text-align: left;
@@ -475,7 +482,7 @@ section.spacer {
 }
 
 .spacer.green,.section.green {
-	background:#1bac91;
+	background:#1a3c5e;
 }
 
 .spacer.green,.section.green h4 {
@@ -486,7 +493,7 @@ section.spacer {
 	background:#ffe873;
 }
 .spacer.orange,.section.orange {
-	background:#f36f36;
+	background:#000000;
 }
 
 section.spacer.bg2 {
@@ -1720,10 +1727,9 @@ i.icon-white {
 	background: #110F22;
 	text-align: center;
 	font-size: 1.5em;
-	font-family: 'Karla', sans-serif;
-
-
 }
+
+
 .active, .accordion:hover {
   background-color: #64A19D;
 }
@@ -1734,7 +1740,48 @@ i.icon-white {
   padding: 0 18px;
   display: none;
   background-color: white;
+	text-align: center;
+	overflow: hidden;
+
+
+}
+.panel2{
+	position: relative;
+	top:5;
+  padding: 0 18px;
+  display: none;
+  background-color: WHITE;
   overflow: hidden;
-	
-	font-family: 'Titillium Web', sans-serif;
+}
+
+.icon-my{
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+.mundo{
+position: relative;
+left:20em;
+}
+.laptop{
+	position: relative;
+	left:30em;
+	align:center;
+}
+.proximamente{
+	display: grid;
+	grid-row: 1fr 1fr;
+}
+
+.tutorial-prox{
+	font-size: 3em;
+	color: white;
+}
+.curso-prox{
+	font-size: 3em;
+	color: white;
+}
+.letras{
+	color: white;
+	text-align: center;
 }

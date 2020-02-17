@@ -31,11 +31,11 @@
 					<!-- navigation -->
 					<nav class="pull-right nav-collapse collapse">
 						<ul id="menu-main" class="nav">
-							<li><a title="team" href="../../		index.html">Inicio</a></li>
+							<li><a title="team" href="../../index.html">Inicio</a></li>
 							<li><a title="services" href="#">Tutoriales</a></li>
-							<li><a title="works" href="#works">Cursos</a></li>
-							<li><a title="blog" href="#blog">Equipo</a></li>
-							<li><a title="contact" href="#contact">Links</a></li>
+							<li><a title="works" href="#mueve">Cursos</a></li>
+							<li><a title="blog" href="Equipo.html">Equipo</a></li>
+							<li><a title="contact" href="Equipo.html">Links</a></li>
 							<li><a href="paginaMuestra.html">Contactos</a></li>
 						</ul>
 					</nav>
@@ -56,17 +56,32 @@
 							<ul class="slides">
 								<li>
 									<p class="home-slide-content">
-										<strong>Investigación</strong> y educación
+										Laboratorio de
 									</p>
 								</li>
 								<li>
 									<p class="home-slide-content">
-										 <strong>Java Script</strong>
+										 datos geoespaciales
 									</p>
 								</li>
 								<li>
 									<p class="home-slide-content">
-										 <strong>Python</strong>
+										 <strong>PYTHON</strong>
+									</p>
+								</li>
+								<li>
+									<p class="home-slide-content">
+										 <strong>POSTGIS</strong>
+									</p>
+								</li>
+								<li>
+									<p class="home-slide-content">
+										 GeoInteligencia
+									</p>
+								</li>
+								<li>
+									<p class="home-slide-content">
+										 <strong>java script</strong>
 									</p>
 								</li>
 							</ul>
@@ -78,18 +93,25 @@
 		</header>
 	</div>
 	<!-- spacer section -->
-	<section class="spacer green">
+	<section class="spacer green ">
 		<div class="container">
 			<div class="row">
-				<div class="span6 alignright flyLeft">
-					<blockquote class="large">
-						Lugar, donde aprenderas nuevas formas de programar
-						o conocimiento computacionales en general
-
+				<div class=" alignright flyLeft">
+					<blockquote class="large2">
+						Aqui encontraras cursos y tutoriales asociados al manejo de Datos
+						geoespaciales apartir de heramientas computacionales
 					</blockquote>
 				</div>
 				<div class="span6 aligncenter flyRight">
-					<i class="icon-coffee icon-10x"></i>
+					<div class="icon-my">
+
+
+						<div class="laptop">
+								<img src="img/icons/trabajo.png" alt="">
+						</div>
+
+					</div>
+
 				</div>
 			</div>
 		</div>
@@ -98,7 +120,7 @@
 
 	<!-- section: services -->
 	<section id="services" class="section orange">
-		<div class="container">
+		<div id="mueve" class="container">
 			<h4>Curso Principales</h4>
 			<!-- Four columns -->
 			<div class="row">
@@ -114,6 +136,7 @@
 				<div class="span3 animated flyIn">
 					<div class="service-box">
 						<img src="img/python.svg" alt="" />
+
 						<h2>Python</h2>
 						<p>
 							Lenguaje de programación que usaremos para, crear backend
@@ -125,7 +148,7 @@
 						<img src="img/postgresql.svg" alt="" />
 						<h2>Datos base Sql</h2>
 						<p>
-							Crear base de datos SQL, manejador de base de datos postrges .
+							Crear base de datos SQL, manejador de base de datos postrges.
 						</p>
 					</div>
 				</div>
@@ -153,55 +176,41 @@
 			<div id="cursos" class="ofrece">
               <button class="accordion"> Python </button>
                 <div class="panel">
-                  <p>Curso super cool de Python</p>
+                  <p> <a href="https://github.com/CentroGeo/introduccion_python">Introduccion a python</a></p>
                 </div>
+
+								<div id="cursos" class="ofrece">
+					              <button class="accordion"> Postgresql-PostGIS </button>
+					                <div class="panel">
+					                  <p> <a href="http://centrogeo.github.io/practicas_sig/">Introduccion al manejo de bases de datos geoespaciales</a></p>
+					                </div>
+
 	</section>
 
 	<!-- end spacer section -->
 	<!-- section: contact -->
-	<section id="contact" class="section green">
-		<div class="container">
-			<h4>Get in Touch</h4>
-			<p>
-				Reque facer nostro et ius, cu persius mnesarchum disputando eam, clita prompta et mel vidisse phaedrum pri et. Facilisis posidonium ex his. Mutat iudico vis in, mea aeque tamquam scripserit an, mea eu ignota viderer probatus. Lorem legere consetetur ei
-				eum. Sumo aeque assentior te eam, pri nominati posidonium consttuam
-			</p>
-			<div class="blankdivider30">
-			</div>
-			<div class="row">
-				<div class="span12">
-					<div class="cform" id="contact-form">
-						<div id="sendmessage">Your message has been sent. Thank you!</div>
-						<div id="errormessage"></div>
-						<form action="" method="post" role="form" class="contactForm">
-							<div class="row">
-								<div class="span6">
-									<div class="field your-name form-group">
-										<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-										<div class="validation"></div>
-									</div>
-									<div class="field your-email form-group">
-										<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-										<div class="validation"></div>
-									</div>
-									<div class="field subject form-group">
-										<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-										<div class="validation"></div>
-									</div>
-								</div>
-								<div class="span6">
-									<div class="field message form-group">
-										<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-										<div class="validation"></div>
-									</div>
-									<input type="submit" value="Send message" class="btn btn-theme pull-left">
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
+	<section id="contact" class="section  container letras">
+
+			<h4>Tutoriales</h4>
+			<div id="cursos" class="ofrece">
+      <button class="accordion"> Basico </button>
+                <div class="panel2">
+                  <p><a href="https://centrogeo.github.io/curso-geoinformatica-2/"> Curso  de Python </a></p>
+                </div>
+
+                </div>
+
+				<button class="accordion"> JS </button>
+					  <div class="panel2">
+					  <p><a href="https://centrogeo.github.io/curso-geoinformatica-2/"> Georeferencia </a></p>
+					   </div>
+			  <button class="accordion"> Django </button>
+		 					  <div class="panel2">
+		 	<p><a href="https://centrogeo.github.io/Geodjango_charts/"> Django-Leafleat </a></p>
+		 					   </div>
+
+
 				<!-- ./span12 -->
-			</div>
 		</div>
 	</section>
 	<footer>
@@ -209,13 +218,12 @@
 			<div class="row">
 				<div class="span6 offset3">
 					<ul class="social-networks">
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-instagram icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-twitter icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-dribbble icon-2x"></i></a></li>
-						<li><a href="#"><i class="icon-circled icon-bgdark icon-pinterest icon-2x"></i></a></li>
+						<li><a href="https://www.facebook.com/CentroGeo/"><i class="icon-circled icon-bgdark icon-facebook icon-2x"></i></a></li>
+						<li><a href="https://github.com/CentroGeo"><i class="icon-circled icon-bgdark icon-github icon-2x"></i></a></li>
+
 					</ul>
 					<p class="copyright">
-						&copy; Maxim Theme. All rights reserved.
+						&copy; DataLab All rights reserved.
 						<div class="credits">
 							<!--
                 All the links in the footer should remain intact.
@@ -223,7 +231,7 @@
                 Licensing information: https://bootstrapmade.com/license/
                 Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Maxim
               -->
-							Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+
 						</div>
 					</p>
 				</div>
