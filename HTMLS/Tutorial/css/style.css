@@ -1770,7 +1770,7 @@ left:20em;
 }
 .proximamente{
 	display: grid;
-	grid-row: 1fr 1fr;
+	grid-row: 5em 1fr;
 }
 
 .tutorial-prox{
@@ -1784,4 +1784,24 @@ left:20em;
 .letras{
 	color: white;
 	text-align: center;
+}
+
+.espacio{
+	top: 5em;
+	text-align: justify;
+}
+.contenedor-texto{
+	display: grid;
+	grid-template-columns: 10em 1fr;
+}
+
+.servicios{
+	text-align: justify;
+}
+.descripcion{
+
+	position: relative;
+	text-align: justify;
+	left:2em;
+	top:2em;
 }
