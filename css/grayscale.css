@@ -298,30 +298,32 @@ footer {
   padding: 5rem 0;
 }
 
+.piePagina{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 
 #img1{
   position:relative;
-  width: 10em;
-  height: 5em;
+  width: 18em;
+  height: 8em;
   left: 10%;
   margin-top: 10%;
 }
 
-.imagen2{
-  position: relative;
-  
-  width: 1.5em; height: 2.3em;
+#datalab{
+  height: 50%;
+  width: 50%;
 }
 .geoint{
   position: relative;
-  left: 15%;
-  width: 1.5em; height: 2.3em;
+  left: -.5em;
+  width: 1.5em; height: 2.2em;
 }
 .nueva{
   display: flex;
   flex-direction: column;
-
 }
 
 .texto{
@@ -347,16 +349,3 @@ text-align: justify;
   font-size: x-large;
 
 }
-© 2020 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Found 3 out of 3 items
