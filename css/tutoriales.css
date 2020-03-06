@@ -1,0 +1,107 @@
+.contenedor{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 2em 5em 10em 10em  ;
+}
+
+#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+ul, ol {
+		list-style:none;
+		}
+
+.nav {
+    width:500px; /*Le establecemos un ancho*/
+		margin:0 auto; /*Centramos automaticamente*/
+	}
+
+.nav > li {
+			float:left;
+}
+
+.nav li a {
+		background-color:#000;
+		color:#fff;
+		text-decoration:none;
+		padding:10px 12px;
+		display:block;
+}
+
+.nav li a:hover {
+	background-color:#434343;
+}
+
+.nav li ul {
+		display:none;
+		position:absolute;
+		min-width:140px;
+	}
+
+.nav li:hover > ul {
+		display:block;
+	}
+
+.nav li ul li {
+	position:relative;
+}
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+
+.titulo{
+position: relative;
+top: 20%;
+font-family: 'Hind', sans-serif;
+font-size: 3em;
+text-align: center;
+}
+
+body{
+}
+.descripcion{
+position: relative;
+top:20%;
+font-family: 'Libre Baskerville', serif;
+font-size: 1.5em;
+color: blue;
+text-align: justify;
+background-image: url("../img/tutoriales/descripcion.jpg");
+border:  black 5px groove;
+
+}
+
+.ofrece{
+  position: relative;
+  top: 20%;
+  background: black;
+  border: black 1px groove;
+
+}
+.accordion {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  border: white 1px groove;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
