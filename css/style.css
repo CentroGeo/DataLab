@@ -371,8 +371,8 @@ ul#menu-main > li > a:focus {
 }
 
 header .logo {
-	text-align:center;
-	margin-bottom:30px;
+	display:block;
+	margin:auto;
 }
 
 /* --- Header slider --- */
