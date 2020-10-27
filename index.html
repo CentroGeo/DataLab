@@ -8,6 +8,7 @@
 	<meta name="author" content="">
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+	<link href="css/style2.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
 	<link rel="shortcut icon" href="img/icons/logo3.png">
 	<!-- =======================================================
@@ -48,50 +49,37 @@
 	<div id="header-wrapper" class="header-slider">
 			<img src="img/IMAGEN2.png" alt="" />
 
-		<header class="clearfix">
 
-			<div class="container">
-				<div class="row">
-					<div class="span12">
-						<div id="main-flexslider" class="flexslider">
-							<ul class="slides">
-								<li>
-									<p class="home-slide-content">
-										Laboratorio de
-									</p>
-								</li>
-								<li>
-									<p class="home-slide-content">
-										 datos geoespaciales
-									</p>
-								</li>
-								<li>
-									<p class="home-slide-content">
-										 <strong>PYTHON</strong>
-									</p>
-								</li>
-								<li>
-									<p class="home-slide-content">
-										 <strong>POSTGIS</strong>
-									</p>
-								</li>
-								<li>
-									<p class="home-slide-content">
-										 GeoInteligencia
-									</p>
-								</li>
-								<li>
-									<p class="home-slide-content">
-										 <strong>java script</strong>
-									</p>
-								</li>
-							</ul>
-						</div>
-						<!-- end slider -->
+			<div class="slides-container">
+				<div class="slide fade">
+					<div class="text">
+						Curso 1
 					</div>
 				</div>
+	
+				<div class="slide fade">
+					<div class="text">
+						Curso 2
+					</div>
+				</div>
+	
+				<div class="slide fade">
+					<div class="text">
+						Curso 3
+					</div>
+				</div>
+	
+				<div class="slide fade">
+					<div class="text">
+						Curso 4
+					</div>
+				</div>
+				
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
 			</div>
-		</header>
+	
+		
 	</div>
 	<!-- spacer section -->
 	<section class="spacer green ">
@@ -108,7 +96,7 @@
 
 
 						<div class="laptop">
-								<img src="img/icons/trabajo.png" alt="">
+								<img src="img/icons/trabajo.png" alt=""  >
 						</div>
 
 					</div>
@@ -194,9 +182,9 @@
 
 			<h4>Tutoriales</h4>
 			<div id="cursos" class="ofrece">
-      <button class="accordion"> Basico </button>
+      <button class="accordion"> Introduccion a JS </button>
                 <div class="panel2">
-                  <p><a href="https://centrogeo.github.io/curso-geoinformatica-2/"> Curso  de Python </a></p>
+                  <p><a href="https://centrogeo.github.io/JSvis/?fbclid=IwAR2H5YrjHX4PDWgqkMR3lg8T-mDLO3-DCvw2o12LPNopMhxTUvfW7gmdQ0A"> Curso  de JS </a></p>
                 </div>
 
                 </div>
@@ -206,9 +194,15 @@
 					  <p><a href="https://centrogeo.github.io/curso-geoinformatica-2/"> Georeferencia </a></p>
 					   </div>
 			  <button class="accordion"> Django </button>
-		 					  <div class="panel2">
+		 				<div class="panel2">
 		 	<p><a href="https://centrogeo.github.io/Geodjango_charts/"> Django-Leafleat </a></p>
-		 					   </div>
+				 </div>
+				 <div id="cursos" class="ofrece">
+					<button class="accordion"> Geo-Informatica </button>
+							  <div class="panel2">
+								<p><a href="https://centrogeo.github.io/curso-geoinformatica-2/"> Curso  de Geo-Informatica </a></p>
+							  </div> 
+							 
 
 
 				<!-- ./span12 -->
@@ -242,6 +236,7 @@
 	</footer>
 	<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
 	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
 	<script src="js/jquery.scrollTo.js"></script>
 	<script src="js/jquery.nav.js"></script>
 	<script src="js/jquery.localScroll.js"></script>

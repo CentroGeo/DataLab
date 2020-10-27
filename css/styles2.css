@@ -1,0 +1,32 @@
+.slides-container-nuevo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slide-2{
+    display: none;
+    font-size: 10vw;
+}
+
+.prev, .next {
+  cursor: pointer;
+  width: auto;
+  color: black;
+  font-weight: bold;
+  font-size: 6vw;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  position: absolute;
+  top: 150px;
+
+}
+
+.next{
+    margin-left: 200px;
+}
+
+.prev{
+    margin-left: -200px;
+}
