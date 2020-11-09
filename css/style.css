@@ -1820,12 +1820,12 @@ left:20em;
 .descripcion{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 2.5em;
-	font-size: center;
-	text-align: center;
+	/*text-align: center;*/
 	color: white;
-	height: 30%;
-	width: 30%;
+	height: 70%;
+	width: 100%;
 	position: relative;
-	left: 40%;
+	top:5%;
+	left: -2%;
 
 }
