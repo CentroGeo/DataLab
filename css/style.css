@@ -1816,3 +1816,15 @@ left:20em;
 .Letras-com{
 	color: rgb(51,51,51);
 }
+
+.descripcion{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 2.5em;
+	text-align: center;
+	color: white;
+	height: 30%;
+	width: 70%;
+	position: relative;
+	left: 20%;
+
+}
