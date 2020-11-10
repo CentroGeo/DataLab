@@ -382,6 +382,7 @@ header .logo {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	opacity: .9;
 }
 
 #main-flexslider ul.slides li p {
@@ -1819,7 +1820,6 @@ left:20em;
 
 .descripcion{
 	/*font-family: 'Source Sans Pro', sans-serif;*/
-	font-family: 'Open Sans', sans-serif;
 
 	font-size: 2.5em;
 	/*text-align: center;*/
@@ -1829,6 +1829,8 @@ left:20em;
 	position: relative;
 	top:5%;
 	left: 3%;
-	background-color: #1a3c5e;
+	/*background-color: #1a3c5e;*/
+	opacity: 0.5;
+	font-family: 'Roboto', sans-serif;
 
 }
